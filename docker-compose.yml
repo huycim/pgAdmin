@@ -12,7 +12,7 @@ services:
     environment:
       # tài khoản đăng nhập
       PGADMIN_DEFAULT_EMAIL: huycim@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: {DEFAULT_PASSWORD}
+      PGADMIN_DEFAULT_PASSWORD: ${DEFAULT_PASSWORD}
 
       # cấu hình server
       PGADMIN_LISTEN_PORT: 80
